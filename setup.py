@@ -1,13 +1,13 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='django-rest-framework-social-oauth2',
+    name='drf-social-oauth2-fork',
     version=__import__('rest_framework_social_oauth2').__version__,
     description=__import__('rest_framework_social_oauth2').__doc__,
     long_description=open('README.rst').read(),
-    author='Philip Garnero',
-    author_email='philip.garnero@gmail.com',
-    url='https://github.com/PhilipGarnero/django-rest-framework-social-oauth2',
+    author='Rafael Musmanno',
+    author_email='rafael.musmanno@gmail.com',
+    url='https://github.com/rmusmanno/django-rest-framework-social-oauth2',
     license='MIT',
     packages=find_packages(),
     classifiers=[
